@@ -22,6 +22,6 @@ void sendChar(char c){
     U1TXREG = c;
 }
 
-void sendString(char *str){
-    for(; *str; str++) sendChar(*str);
-}
+//void sendString(char *str){
+//    for(; *str; str++) sendChar(*str);
+//}
